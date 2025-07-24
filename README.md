@@ -11,11 +11,11 @@
 ### Prerequisites:
 - Note: commands were run on Ubuntu 24
 - install:
-    Docker: version 27.5.1
-    - sudo usermod -aG docker $USER && newgrp docker
-    Kind: version 0.29.0
-    kubectl: v1.30+
-    Cilium: latest 1.17.x
+    - Docker: version 27.5.1
+      - sudo usermod -aG docker $USER && newgrp docker
+    - Kind: version 0.29.0
+    - kubectl: v1.30+
+    - Cilium: latest 1.17.x
 
 ## Setup:
 - Make project directory:
