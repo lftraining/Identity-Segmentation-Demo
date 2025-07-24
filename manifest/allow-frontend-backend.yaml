@@ -1,0 +1,13 @@
+apiVersion: cilium.io/v2
+kind: CiliumNetworkPolicy
+metadata:
+  name: allow-frontend-backend
+spec:
+  endpointSelector:
+    matchLabels:
+      role: backend
+  ingress:
+  - fromEndpoints:
+    - matchLabels:
+        role: frontend
+
