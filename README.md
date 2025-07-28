@@ -60,7 +60,7 @@ kubectl get svc backend
 ```
 kubectl apply -f manifest/default-deny.yaml
 
-kubectl apply -f manifest/allow-frontend-to-backend.yaml
+kubectl apply -f manifest/allow-frontend-backend.yaml
 ```
 
 - Sanity check:
